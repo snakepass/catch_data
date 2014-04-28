@@ -1,7 +1,3 @@
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// wu_shengrui@vobile.cn
-// 09/08/2013 01:44:54 AM
-
 #ifndef VS_PARSE_PKT2_H_
 #define VS_PARSE_PKT2_H_
 
