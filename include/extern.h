@@ -1,6 +1,4 @@
 // extern.h: 
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// wu_shengrui@vobile.cn
 // 09/06/2013 05:28:56 PM
 
 #ifndef VS_EXTERN_H_
