@@ -29,35 +29,6 @@
 
 using namespace std;
 
-/*
-inline bool filter_trust_stream (struct in_addr ip_src, struct in_addr ip_dst
-        , unsigned source, unsigned dest)
-{
-    char ip_src_str[16], ip_dst_str[16];
-    sprintf (ip_src_str, "%s", inet_ntoa (ip_src));
-    sprintf (ip_dst_str, "%s", inet_ntoa (ip_dst));
-    vector<map<string, string> >::iterator iter = g_trust_ips.begin();
-    for (; iter != g_trust_ips.end (); ++iter) {
-        string &sip = (*iter)["source_ip"];
-        string &spt = (*iter)["source_port"];
-        string &dip = (*iter)["dest_ip"];
-        string &dpt = (*iter)["dest_port"];
-        if (sip.length () && strcmp (sip.c_str (), ip_src_str))
-            continue;
-        if (spt.length () && (unsigned) atoi (spt.c_str ()) != source)
-            continue;
-        if (dip.length () && strcmp (dip.c_str (), ip_dst_str))
-            continue;
-        if (dpt.length () && (unsigned) atoi (dpt.c_str ()) != dest)
-            continue;
-        DLOG (INFO) << "match trust ip rule [" << sip << ":" << spt
-            << "->" << dip << ":" << dpt << "]";
-        return true;
-    }
-    return false;
-}
-*/
-
 inline void parse_udp (const struct pcap_pkthdr *pkt_hdr, const u_char *pkt, struct IP *ip_pkt)
 {
     struct UDPHDR *udppkt = (struct UDPHDR*)(pkt + g_datalink_size + IP_SIZE);
