@@ -1,7 +1,4 @@
 // loop.cpp: 
-// Copyright (c) 2014 Vobile Inc. All Rights Reserved.
-// guo_jiafeng@vobile.cn
-// 03/20/2014 10:33:57 PM
 
 #include <netinet/in.h>
 #include <sys/socket.h>
