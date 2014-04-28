@@ -1,7 +1,4 @@
 // def.h: 
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// wu_shengrui@vobile.cn
-// 09/06/2013 04:46:30 PM
 
 #ifndef VS_DEF_H_
 #define VS_DEF_H_
