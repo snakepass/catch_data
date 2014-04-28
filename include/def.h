@@ -10,9 +10,9 @@
 #define PROG_NAME "video_sniffer" 
 #define IP_SIZE 20
 #define DEFAULT_BUF_PKT_CNT 5
-#define STREAM_DIR "/home/vobile/Documents/practice/sniffer/var/stream"
-#define SAMPLE_DIR "/home/vobile/Documents/practice/sniffer/var/sample"
-#define LOG_DIR "/home/vobile/Documents/practice/sniffer/var/log"
+#define STREAM_DIR "/home/sniffer/var/stream"
+#define SAMPLE_DIR "/home/sniffer/var/sample"
+#define LOG_DIR "/home/sniffer/var/log"
 #define WRITE_RETRY_TIMES 5
 
 enum StreamProtocol {
