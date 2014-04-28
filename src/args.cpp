@@ -1,7 +1,4 @@
 // args.cpp: 
-// Copyright (c) 2014 Vobile Inc. All Rights Reserved.
-// guo_jiafeng@vobile.cn
-// 03/20/2014 09:43:48 PM
 
 #include <stdio.h>
 #include <getopt.h>
