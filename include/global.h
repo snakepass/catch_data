@@ -1,7 +1,4 @@
 // global.h: 
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// wu_shengrui@vobile.cn
-// 09/06/2013 04:59:33 PM
 
 #ifndef VS_GLOBAL_H_
 #define VS_GLOBAL_H_
