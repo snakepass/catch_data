@@ -1,7 +1,4 @@
 // main.cpp: 
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// guo_jiafeng@vobile.cn
-// 03/18/2014 15:35:48 PM
 
 #include <signal.h>
 #include <string.h>
