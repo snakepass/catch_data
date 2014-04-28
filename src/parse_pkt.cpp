@@ -1,6 +1,3 @@
-// Copyright (c) 2013 Vobile Inc. All Rights Reserved.
-// wu_shengrui@vobile.cn
-// 09/08/2013 10:00:44 AM
 
 #include <signal.h>
 #include <sys/stat.h>
